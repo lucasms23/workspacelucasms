@@ -1,0 +1,25 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Lista2Exercicio1 {
+
+	public static void main(String[] args) {
+	
+		double diaria = 80;
+		double qtde = Double.parseDouble(JOptionPane.showInputDialog("Quantidade de Diarias: "));
+		double taxa;
+		
+		if (qtde > 15) {
+		taxa = 5.5;
+		}else if(qtde = 15) {
+			taxa = 6
+		}else {
+			taxa = 8;
+		}
+		
+		
+
+	}
+
+}

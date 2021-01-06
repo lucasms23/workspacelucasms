@@ -1,0 +1,16 @@
+package variaveis;
+
+public class TiposDados {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	String nome = "Lucas";
+	int idade = 28;
+	double altura = 1.73;
+	
+	System.out.print(nome);
+	System.out.print(idade);
+	System.out.print(altura);
+	}
+
+}

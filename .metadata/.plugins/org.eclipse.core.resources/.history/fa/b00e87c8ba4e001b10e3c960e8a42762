@@ -1,0 +1,14 @@
+package variaveis;
+
+public class Carrinho {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	String nome_prod = JOptionPane();
+	String categ_prod;
+	double valor_prod;
+	int qtidade_prod;
+	double imposto_prod;
+	}
+
+}

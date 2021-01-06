@@ -1,0 +1,35 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioSlide77Exer3 {
+	
+	int cont = 0;
+	int idade_ant=0;
+	int idade = 0;
+	int maiores = 0;
+	int somaidade = 0;
+	String idoso;
+	String jovem;
+
+	public static void main(String[] args) {
+
+		do {
+			String nome = JOptionPane.showInputDialog("Digite o nome");
+			idade = Integer.parseInt(JOptionPane.showInputDialog("Idade: "));
+			cont++;
+			somaidade = somaidade+idade;
+					if (idade >= 18) {
+						maiores++;
+					}
+					/*if (idade > idade_ant) {
+						idoso=nome;
+					}
+					if (idade <)*/
+
+			idade_ant=idade;
+		}while(JOptionPane.showConfirmDialog(null, "Continuar?", "Pergunta", JOptionPane.YES_NO_OPTION)==0);
+		JOptionPane.showMessageDialog(null, "Maiores de idade: "+(maiores)+"\nMedia idades: "+(somaidade/cont));
+	}
+
+}

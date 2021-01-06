@@ -1,0 +1,18 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Lista2Exercicio1 {
+
+	public static void main(String[] args) {
+	
+		double diaria = 80;
+		double qtde_diaria = Double.parseDouble(JOptionPane.showInputDialog("Quantidade de Diarias: "));
+		double taxa;
+		
+		
+		
+
+	}
+
+}

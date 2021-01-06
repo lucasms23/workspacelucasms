@@ -1,0 +1,13 @@
+package variaveis;
+
+public class Itau {
+
+	//o método main é o start point de uma aplicacao java
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1 = 10;
+		int num2 = 20;
+		System.out.print("Olá mundo! "+int1);
+	}
+
+}

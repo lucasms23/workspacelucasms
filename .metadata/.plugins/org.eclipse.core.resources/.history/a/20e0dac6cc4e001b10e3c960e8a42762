@@ -1,0 +1,18 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposPrimitivos {
+
+	public static void main(String[] args) {
+	
+	float nota1 = 6.5;
+	float nota2 = 7.5;
+	float media = (nota1+nota2)/2;
+	short falta = 8;
+	String materia = fisica;
+
+	System.out.println("Media: "+ media);
+	}
+
+}

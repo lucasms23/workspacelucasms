@@ -1,0 +1,18 @@
+package variaveis;
+import javax.swing.JOptionPane;
+import javax.swing.JOptionPane;
+
+public class Carrinho {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	String nome_prod = JOptionPane.showInputDialog("Digite o nome");
+	String cate_prod = JOptionPane.showInputDialog("Digite categoria produto");
+	double valor_prod = Integer.parseInt(JOptionPane.showInputDialog("Digite o Valor do Produto");)
+	int qtidade_prod;
+	double imposto_prod;
+	
+	System.out.println("Nome: "+ nome_prod);
+	}
+
+}

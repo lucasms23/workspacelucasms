@@ -1,0 +1,15 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		String email = JOptionPane.showInputDialog("Digite o email");
+		int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade"));
+		
+		
+
+	}
+
+}

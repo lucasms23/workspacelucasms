@@ -1,0 +1,27 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Lista2Exercicio3 {
+
+	public static void main(String[] args) {
+	
+		double valor1 = Double.parseDouble(JOptionPane.showInputDialog("Valor 1: "));
+		double valor2 = Double.parseDouble(JOptionPane.showInputDialog("Valor 2: "));
+		String operacao = JOptionPane.showInputDialog("Operação Desejada (+, -, * ou /): ");
+				
+		if (operacao == "+") {
+		total = valor1 + valor2;}
+		/*}else if (qtde == 15) {
+			taxa = 6 * qtde;
+		}else {
+			taxa = 8 * qtde;
+		}*/
+		
+			
+		System.out.println("Total: "+total);
+		
+
+	}
+
+}

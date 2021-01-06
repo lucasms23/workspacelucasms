@@ -1,0 +1,13 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisaoSimples {
+
+	public static void main(String[] args) {
+
+		String nome = JOptionPane.showInputDialog("Nome: ");
+		float idade = Float.parseFloat(JOptionPane.showInputDialog("Idade: "));
+	}
+
+}

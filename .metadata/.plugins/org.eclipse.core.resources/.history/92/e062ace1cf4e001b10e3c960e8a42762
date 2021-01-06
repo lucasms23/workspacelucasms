@@ -1,0 +1,33 @@
+package variaveis;
+import javax.swing.JOptionPane;
+
+public class Carrinho {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	String nome_prod = JOptionPane.showInputDialog("Digite o nome");
+	String cate_prod = JOptionPane.showInputDialog("Digite categoria produto");
+	double valor_prod = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor"));
+	double qtidade_prod = Double.parseDouble(JOptionPane.showInputDialog("Digite a Quantidade do Produto"));
+	double imposto_prod = Double.parseDouble(JOptionPane.showInputDialog("Digite o Imposto"));
+	
+	/*
+	System.out.println("Nome: "+ nome_prod);
+	System.out.println("Categoria: "+ cate_prod);
+	System.out.println("Valor: "+ valor_prod);
+	System.out.println("Quantidade: "+ qtidade_prod);
+	System.out.println("Imposto: "+ imposto_prod);
+	*/
+	
+	double total_si = valor_prod * qtidade_prod ;
+	double total_ci = total_si + (total_si (imposto_prod/100)) ;
+	double valor_imp = valor_prod * (imposto_prod/100);
+	double total_cid = total_ci - (total_ci * 0.10) ;
+	
+	System.out.println("Total sem Imposto: "+ total_si);
+	System.out.println("Total com Imposto: "+ total_ci);
+	System.out.println("Valor Imposto: "+ valor_imp);
+	System.out.println("Total com Imposto + 10% Desconto: "+ total_cid);
+	}
+
+}
