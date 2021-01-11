@@ -10,10 +10,26 @@ public class Produto {
 	//Sintaxe dos metodos
 	// <modificado> <tipo do retorno> <nome do método> (<tipo do param> <nome do param>
 	
+	
+	
 	public float getTotalVendas () {
 		return (float) (qtde*valorVenda);
 	}
 	
+	public String toString() {
+		return "Produto [id=" + id + ", descricao=" + descricao + ", valorVenda=" + valorVenda + ", valorCompra="
+				+ valorCompra + ", qtde=" + qtde + "]";
+	}
+
+	public Produto(int id, String descricao, float valorVenda, float valorCompra, int qtde) {
+		super();
+		this.id = id;
+		this.descricao = descricao;
+		this.valorVenda = valorVenda;
+		this.valorCompra = valorCompra;
+		this.qtde = qtde;
+	}
+
 	public float getTotalCompras () {
 		return (float) (qtde*valorCompra);
 	}
@@ -36,7 +52,7 @@ public class Produto {
 		}
 	
 	public float getPromocao (float porcentagem) {
-		percent=(porcentagem/100);
+		float percent=(float) (porcentagem/100);
 		return (float) (valorVenda*percent);
 	}
 	
